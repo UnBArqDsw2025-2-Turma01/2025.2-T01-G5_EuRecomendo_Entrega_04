@@ -101,7 +101,7 @@ assets/
 ### No Markdown
 
 ```markdown
-![Diagrama de Classes](../assets/diagrama-de-classes/classes-dominio.png)
+![Diagrama de Classes](./diagrama-de-classes/diagrama-classes-django.png)
 <center>Figura 1: Diagrama de Classes do Domínio</center>
 <center>Fonte: Equipe EuRecomendo (2025)</center>
 ```
@@ -110,7 +110,7 @@ assets/
 
 ```markdown
 <p align="center">
-  <img src="../assets/diagrama-de-sequencia/criar-review.svg" alt="Criar Review">
+  <img src="./diagrama-de-sequencia/diagrama-sequencia-criar-conta.png" alt="Diagrama de Sequência - Criar Conta">
 </p>
 <div align="center">
   <font size="3">Figura 2 – Diagrama de Sequência: Criar Review</font>

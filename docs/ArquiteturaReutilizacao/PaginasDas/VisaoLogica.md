@@ -15,12 +15,12 @@ A organização dos pacotes reflete a divisão de responsabilidades do sistema, 
 ### Diagramas consolidados (Entrega 02)
 
 <p align="center">
-  <img src="../../assets/diagrama-de-pacotes/diagrama-pacotes-backend.png" alt="Diagrama de Pacotes - Backend">
+  <img src="./assets/diagrama-de-pacotes/diagrama-pacotes-backend.png" alt="Diagrama de Pacotes - Backend">
 </p>
 <div align="center"><font size="3">Figura 1 – Diagrama de pacotes do backend reutilizado da Entrega 02 (Modelagem).</font></div>
 
 <p align="center">
-  <img src="../../assets/diagrama-de-pacotes/diagrama-pacotes-frontend.png" alt="Diagrama de Pacotes - Frontend">
+  <img src="./assets/diagrama-de-pacotes/diagrama-pacotes-frontend.png" alt="Diagrama de Pacotes - Frontend">
 </p>
 <div align="center"><font size="3">Figura 2 – Diagrama de pacotes do frontend reutilizado da Entrega 02.</font></div>
 
@@ -103,7 +103,7 @@ Esta seção apresenta a estrutura estática do sistema **EuRecomendo**, detalha
 ### Visualização Geral
 
 <p align="center">
-  <img src="../../assets/diagrama-de-classes/diagrama-classes-django.png" alt="Diagrama de Classes EuRecomendo">
+  <img src="./assets/diagrama-de-classes/diagrama-classes-django.png" alt="Diagrama de Classes EuRecomendo">
 </p>
 <div align="center"><font size="3">Figura 3 – Diagrama de Classes reutilizado da Entrega 02, alinhado aos modelos Django planejados.</font></div>
 

@@ -9,7 +9,7 @@ Esta seção descreve como os componentes do sistema EuRecomendo são distribuí
 ## Diagrama de Implantação
 
 <p align="center">
-  <img src="../../assets/diagrama-de-implantacao/diagrama-implantacao.png" alt="Diagrama de Implantação EuRecomendo">
+  <img src="./assets/diagrama-de-implantacao/diagrama-implantacao.png" alt="Diagrama de Implantação EuRecomendo">
 </p>
 <div align="center"><font size="3">Figura 1 – Diagrama de implantação reutilizado da Entrega 02 (Modelagem).</font></div>
 

@@ -13,7 +13,7 @@ O **EuRecomendo** é um sistema que permite aos usuários descobrir novos livros
 Ao modelar os casos de uso é possível ter uma melhor noção de como serão as funcionalidades do sistema que será desenvolvido. O diagrama a seguir ilustra os casos de uso e seus relacionamentos no contexto do sistema EuRecomendo.
 
 <p align="center">
-  <img src="../../assets/diagrama-de-casos-de-uso/diagrama-casos-de-uso.png" alt="Diagrama de Casos de Uso EuRecomendo">
+  <img src="./assets/diagrama-de-casos-de-uso/diagrama-casos-de-uso.png" alt="Diagrama de Casos de Uso EuRecomendo">
 </p>
 <div align="center"><font size="3">Figura 1 – Diagrama de casos de uso consolidado da Entrega 02. Esta entrega prioriza o subconjunto de casos centrais descritos a seguir.</font></div>
 

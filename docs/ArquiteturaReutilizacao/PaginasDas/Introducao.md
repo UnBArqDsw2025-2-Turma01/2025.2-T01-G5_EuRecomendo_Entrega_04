@@ -101,12 +101,12 @@ Com a vasta quantidade de livros disponíveis, leitores frequentemente enfrentam
 ### Artefatos de Contexto Reutilizados (Entrega 01)
 
 <p align="center">
-  <img src="../../assets/outros/rich-picture.png" alt="Rich Picture EuRecomendo" width="720">
+  <img src="./assets/outros/rich-picture.png" alt="Rich Picture EuRecomendo" width="720">
 </p>
 <div align="center"><font size="3">Figura 1 – Rich picture produzido na Entrega 01, reutilizado como visão de contexto.</font></div>
 
 <p align="center">
-  <img src="../../assets/outros/storyboard.png" alt="Storyboard EuRecomendo" width="720">
+  <img src="./assets/outros/storyboard.png" alt="Storyboard EuRecomendo" width="720">
 </p>
 <div align="center"><font size="3">Figura 2 – Storyboard da experiência do usuário (Entrega 01), base para os cenários do DAS.</font></div>
 
