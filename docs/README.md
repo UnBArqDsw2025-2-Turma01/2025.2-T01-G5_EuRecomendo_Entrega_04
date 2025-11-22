@@ -1,41 +1,46 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
+# EuRecomendo - Arquitetura e Reutilização de Software
 
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_04)*. !!** 
+Bem-vindo à documentação de arquitetura do projeto **EuRecomendo**, um sistema de recomendação de livros baseado em preferências do usuário e algoritmos de machine learning.
 
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
+## Sobre o Projeto
 
-**!! *Exemplo de título correto: 2025.1(T01)_G1_Embarcado_Entrega_04*. !!**  
- 
- (Apague esses comentários)
+O **EuRecomendo** é uma plataforma que permite aos usuários:
+- Descobrir novos livros através de recomendações personalizadas
+- Avaliar e comentar sobre livros lidos
+- Gerenciar sua biblioteca pessoal
+- Receber sugestões baseadas em seus gostos e histórico de leitura
 
-# Nome do Projeto
+## Documentação de Arquitetura
 
-**Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
-**Entrega**: 04<br>
+Esta entrega apresenta a **Documentação de Arquitetura de Software (DAS)** completa do sistema, seguindo o modelo 4+1 do RUP:
 
-## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+- **Visão de Casos de Uso**: Funcionalidades e interações do sistema
+- **Visão Lógica**: Estrutura de classes e pacotes
+- **Visão de Processo**: Fluxos dinâmicos e comportamento em tempo de execução
+- **Visão de Implantação**: Infraestrutura e deployment
+- **Visão de Implementação**: Organização do código e módulos
 
-## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+## Artefatos Reutilizados das Entregas 01-03
 
-## Screenshots da Quarta Entrega
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
+- Rich picture e storyboard de contexto (Entrega 01)
+- Diagramas UML consolidados (pacotes, classes, casos de uso, atividades, sequência, implantação) trazidos da Entrega 02
+- Diagramas de padrões GoF (Adapter, Builder, Iterator) da Entrega 03
+- Todos os arquivos estão em `docs/assets/` e são referenciados nas seções do DAS e da documentação de reutilização
 
-## Há algo a ser executado?
+## Tecnologias
 
-( ) SIM
+- **Backend**: Django 4.x + Django REST Framework
+- **Banco de Dados**: PostgreSQL
+- **Cache/Message Broker**: Redis
+- **Task Queue**: Celery
+- **Autenticação**: JWT (SimpleJWT)
 
-( ) NÃO
+## Equipe
 
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
+| Membro | GitHub |
+|--------|--------|
+| Pedro Braga | [@Stain19](https://github.com/Stain19) |
 
-## Informações Complementares 
-Quaisquer outras informações adicionais podem ser descritas nessa seção.
+## Navegação
+
+Use o menu lateral para navegar pela documentação completa de arquitetura e reutilização de software.

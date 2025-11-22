@@ -1,4 +1,4 @@
-# Code of Conduct
+# Código de Conduta
 
 Descreva o código de conduta deste repositório/organização.
 

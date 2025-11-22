@@ -1,38 +1,73 @@
-** Projetos - Período   2025.2
+# Projeto - EuRecomendo
 
-Segue a lista de projetos desse período letivo:
+## Descrição
 
-    • G1 até 10 membros
-    • Projeto G1 - JogoDigital, baseado em qualquer jogo para inspiração, podendo ser em versão site, desktop ou aplicativo móvel.
-    • Não usar o nome do jogo real. A ideia é usar o nome G1_JogoDigital_X mesmo, e apenas se basear em um jogo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes. Não pegar algo pronto. Pensar em uma proposta nova.
+**Projeto G5 - EuRecomendo**, baseado em sistemas de recomendação de livros, filmes, dentre outros, podendo ser em versão site, desktop ou aplicativo móvel.
 
-    • G2 até 10 membros
-    • Projeto G2 - CorreioDigital, podendo ser em versão site, desktop ou aplicativo móvel.
-    • Não usar o nome de algo real/proprietário. A ideia é usar o nome G2_CorreioDigital mesmo, e apenas se basear em algo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes.
+## Contexto
 
-    • G3 até 10 membros
-    • Projeto G3 - ReveleSeuHobbie, podendo ser em versão site, desktop ou aplicativo móvel.
-    • Não usar o nome de algo real/proprietário. A ideia é usar o nome G3_ReveleSeuHobbie mesmo, e apenas se basear em algo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes.
+O EuRecomendo é um sistema de recomendação de livros que utiliza algoritmos de machine learning para sugerir leituras personalizadas aos usuários. O sistema analisa o histórico de leituras, avaliações e preferências para gerar recomendações relevantes.
 
-    • G4 até 10 membros
-    • Projeto G4 - CuidaDeMim, baseado em qualquer site de adoção de pets, podendo ser em versão site, desktop ou aplicativo móvel.
-    • Não usar o nome do site real. A ideia é usar o nome G4_CuidaDeMim mesmo, e apenas se basear em algo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes.
+## Objetivos
 
-    • G5 até 10 membros
-    • Projeto G5 - EuRecomendo, baseado em sistemas de recomendação de livros, filmes, dentre outros, podendo ser em versão site, desktop ou aplicativo móvel. 
-    • Não usar o nome de algo real. A ideia é usar o nome G5_EuRecomendo mesmo, e apenas se basear em algo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes.
+- Facilitar a descoberta de novos livros
+- Personalizar recomendações baseadas no perfil do usuário
+- Criar uma comunidade de leitores através de avaliações e comentários
+- Gerenciar bibliotecas pessoais de forma eficiente
 
-    • G6 até 10 membros
-    • Projeto G6 - QueroBemEstar, baseado em qualquer contexto que envolva dicas de saúde e bem-estar, podendo ser em versão site, desktop ou aplicativo móvel. 
-    • Não usar o nome de algo real. A ideia é usar o nome G6_QueroBemEstar mesmo, e apenas se basear em algo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes.
+## Público-Alvo
 
-    • G7 até 10 membros
-    • Projeto G7 - PodePedirFCTE, baseado em estabelecimentos que se encontram próximos da FCTE para delivery, podendo ser em versão site, desktop ou aplicativo móvel.
-    • Não usar o nome de algo real. A ideia é usar o nome G7_PodePedirFCTE mesmo, e apenas se basear em algo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes.
+- Leitores ávidos em busca de novas descobertas
+- Estudantes procurando material de leitura
+- Clubes de leitura
+- Bibliotecas e instituições educacionais
 
-    • G8 até 10 membros
-    • Projeto G8 - Sei&PossoEnsinar, possibilitando que alguém que saiba algo ensine outro alguém que queira aprender, e podendo ser em versão site, desktop ou aplicativo móvel. 
-    • Não usar o nome de algo real. A ideia é usar o nome G8_Sei&PossoEnsinar mesmo, e apenas se basear em algo conhecido para fins de identificar público-alvo, principais funcionalidades, dentre outros detalhes.
+## Principais Funcionalidades
 
-OBS: Se a turma se mantiver com 60 alunos, devem ser mantidos 6 grupos de 10 membros. Caso outros alunos sejam matriculados, ultrapassando 60 alunos, têm-se o uso de mais dois grupos, totalizando 8 grupos com até 10 alunos cada = 80 alunos. Caso existam novos matriculados na disciplina, acima de 80 alunos, novos projetos serão propostos pela professora. Portanto, nesses casos, conversar com a professora na época.
+1. **Sistema de Recomendação**
+   - Algoritmo colaborativo baseado em similaridade entre usuários
+   - Algoritmo baseado em conteúdo (gêneros, autores, temas)
+   - Sistema híbrido combinando ambas abordagens
 
+2. **Gestão de Biblioteca Pessoal**
+   - Adicionar livros lidos, em leitura e desejados
+   - Marcar progresso de leitura
+   - Organizar por categorias personalizadas
+
+3. **Sistema de Avaliações**
+   - Avaliar livros com notas de 1 a 5 estrelas
+   - Escrever resenhas detalhadas
+   - Visualizar avaliações de outros usuários
+
+4. **Busca e Descoberta**
+   - Busca por título, autor, ISBN ou gênero
+   - Filtros avançados
+   - Explorar por categorias
+
+5. **Perfil de Usuário**
+   - Histórico de leituras
+   - Estatísticas de leitura
+   - Preferências e configurações
+
+## Tecnologias
+
+- **Backend**: Django 4.x + Django REST Framework
+- **Banco de Dados**: PostgreSQL
+- **Cache**: Redis
+- **Task Queue**: Celery
+- **Autenticação**: JWT (SimpleJWT)
+- **Documentação**: Docsify
+
+## Entregas Anteriores
+
+- **Entrega 01**: Base - Design Sprint, Léxico, BPMN
+- **Entrega 02**: Modelagem - Diagramas UML (Classes, Sequência, Atividades, etc.)
+- **Entrega 03**: Padrões de Projeto - GoFs Criacionais, Estruturais e Comportamentais
+- **Entrega 04**: Arquitetura e Reutilização - DAS completo
+
+## Repositórios
+
+- [Entrega 01 - Base](https://github.com/UnBArqDsw2025-2-Turma01/2025.2-T01-G5_EuRecomendo_Entrega_01)
+- [Entrega 02 - Modelagem](https://github.com/UnBArqDsw2025-2-Turma01/2025.2-T01-G5_EuRecomendo_Entrega_02)
+- [Entrega 03 - Padrões de Projeto](https://github.com/UnBArqDsw2025-2-Turma01/2025.2-T01-G5_EuRecomendo_Entrega_03)
+- [Entrega 04 - Arquitetura e Reutilização](https://github.com/UnBArqDsw2025-2-Turma01/2025.2-T01-G5_EuRecomendo_Entrega_04)
